@@ -1,0 +1,28 @@
+{
+    "name": "volodymyr0587/posts",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr0587",
+            "email": "email@example.com",
+            "homepage": "https://github.com/Volodymyr0587"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Volodymyr0587\\Posts\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Volodymyr0587\\Posts\\Providers\\PostsServiceProvider"
+            ]
+        }
+    }
+}
